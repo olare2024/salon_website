@@ -1,0 +1,188 @@
+{% extends 'base.html' %}
+{% load static %}
+<style>
+    #scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#scrollToTopBtn:hover {
+  background-color: #0056b3;
+}
+
+</style>
+{% block content %}
+
+    <!-- breadcrumb start-->
+    <section class="breadcrumb breadcrumb_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb_iner text-center">
+                        <div class="breadcrumb_iner_item">
+                            <h2>Our Service</h2>
+                            <p>home <span class="ti-angle-double-right"></span>Service</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- breadcrumb start-->
+
+    <!-- Service part start-->
+    <section class="service_part section_padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7 col-lg-6 col-sm-10">
+                    <div class="section_tittle">
+                        <img src="{% static 'img/section_tittle_icon.png'%}" alt="icon">
+                        <h2>Service Expectation</h2>
+                        <p>Good morning forth gathering doesn't god gathering man and had moveth there dry sixth
+                            dominion
+                            rule divided behold after had he did not move .</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="single_service_part">
+                        <img src="{% static 'img/service/single_service_1.png'%}" alt="">
+                        <div class="single_service_text">
+                            <h4>Stylish Hair Cut</h4>
+                            <p>Good morning forth gathering does god gathering man and had moveth there
+                                dry so dominion rule divided had</p>
+                            <a href="#" class="btn_3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="single_service_part">
+                        <img src="{% static 'img/service/single_service_2.png'%}" alt="">
+                        <div class="single_service_text">
+                            <h4>Wedding Hair</h4>
+                            <p>Good morning forth gathering does god gathering man and had moveth there
+                                dry so dominion rule divided had</p>
+                            <a href="#" class="btn_3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="single_service_part">
+                        <img src="{% static 'img/service/single_service_3.png'%}" alt="">
+                        <div class="single_service_text">
+                            <h4>Color & Hair Wash</h4>
+                            <p>Good morning forth gathering does god gathering man and had moveth there
+                                dry so dominion rule divided had</p>
+                            <a href="#" class="btn_3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service part end-->
+
+      <!--::review_part start::-->
+    <section class="review_part gray_bg section_padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="client_review_part owl-carousel">
+                        <div class="client_review_single">
+                            <img src="{% static 'img/Quote.png'%}" class="Quote" alt="quote">
+                            <div class="client_review_text">
+                                <p>The team here is fantastic. Talented stylists, friendly staff, and a welcoming atmosphere. A perfect salon experience. It's clear that everyone on the team is passionate about what they do. The positive energy is contagious, making each visit enjoyable. I wouldn't go anywhere else!</p>
+                            </div>
+                            <div class="client_img">
+                                <img src="{% static 'img/client/client_1.png'%}" alt="">
+                            </div>
+                            <h4>Mosan Cameron, <span>Executive of fedex</span></h4>
+                        </div>
+                        <div class="client_review_single">
+                            <img src="{% static 'img/Quote.png'%}" class="Quote" alt="quote">
+                            <div class="client_review_text media-body">
+                                <p>I've never been so happy with a haircut before. The attention to detail is unmatched. Highly recommend! The stylist took the time to listen to my preferences, offered valuable suggestions, and executed the cut with precision. I feel confident and stylish – exactly what I was looking for.</p>
+                            </div>
+                            <div class="client_img">
+                                <img src="{% static 'img/client/client_1.png'%}" alt="">
+                            </div>
+                            <h4>Mosan Cameron, <span>Executive of fedex</span></h4>
+                        </div>
+                        <div class="client_review_single">
+                            <img src="img/Quote.png" class="Quote" alt="quote">
+                            <div class="client_review_text">
+                                <p>A visit to this salon is like a mini-vacation for my hair. Always leave feeling refreshed and beautiful! The ambiance is so inviting, and the staff goes out of their way to create a relaxing experience. Whether it's a simple trim or a complete style transformation, I trust this salon with my hair, and they never disappoint.</p>
+                            </div>
+                            <div class="client_img">
+                                <img src="img/client/client_1.png" alt="">
+                            </div>
+                            <h4>Mosan Cameron, <span>Executive of fedex</span></h4>
+                        </div>
+                        <div class="client_review_single">
+                            <img src="img/Quote.png" class="Quote" alt="quote">
+                            <div class="client_review_text">
+                                <p>Absolutely thrilled with the service! Professionalism at its best. My stylist truly understands my preferences. From the moment I walk in, I feel valued and appreciated. The attention to detail during the haircut and styling process is exceptional. My hair has never looked better!</p>
+                            </div>
+                            <div class="client_img">
+                                <img src="img/client/client_1.png" alt="">
+                            </div>
+                            <h4>Mosan Cameron, <span>Executive of fedex</span></h4>
+                        </div>
+                         <div class="client_review_single">
+                            <img src="img/Quote.png" class="Quote" alt="quote">
+                            <div class="client_review_text">
+                                <p>Incredible color and hair wash service! My hair has never looked this vibrant and healthy. Thank you! The colorist understood exactly what I wanted and delivered results beyond my expectations. The hair wash was a pampering experience that left my hair silky and smooth. I'm receiving compliments left and right!</p>
+                            </div>
+                               <div class="client_img">
+                                <img src="img/client/client_1.png" alt="">
+                            </div>
+                            <h4>Mosan Cameron, <span>Executive of fedex</span></h4>
+                        </div>
+                         <div class="client_review_single">
+                            <img src="img/Quote.png" class="Quote" alt="quote">
+                            <div class="client_review_text">
+                                <p>The reviews were right! Amazing color work and excellent customer service. Found my go-to salon. The positive reviews led me here, and I couldn't be happier. The color work is impeccable, and the customer service is top-notch. This is now my trusted salon for all things hair-related</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--::review_part end::-->
+
+
+    <!-- Scroll to Top Button -->
+    <button onclick="topFunction()" id="scrollToTopBtn" title="Go to top">Top</button>
+
+    <script>
+        var mybutton = document.getElementById("scrollToTopBtn");
+
+        window.onscroll = function() {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+{% endblock %}
